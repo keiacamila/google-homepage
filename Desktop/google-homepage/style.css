@@ -1,0 +1,120 @@
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 13px;
+    }
+    
+    nav .main-nav {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        display: inline;
+        padding: 10px;
+    }
+    
+    .nav-left {
+        float: left;
+    }
+    
+    ul .nav-right {
+        float: right;
+        text-align: center;
+    }
+    
+    section .logo {
+        display: inline-block;
+        align-content: center;
+        margin-top: 200px;
+        margin-left: 450px;
+    }
+    
+    section .logo img {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        height: 100px;
+        max-height: 200px;
+        min-height: 92px;
+        width: auto;
+        margin-left: 155px;
+        margin-bottom: 5px;
+    }
+    
+    section button {
+        margin-top: 0px;
+        box-sizing: border-box;
+        color: rgb(204, 204, 204);
+        display: block;
+        flex-shrink: 0;
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        height: 50px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        width: 789px;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        background-color: white;
+        border: .1rem solid rgb(231, 229, 229);
+        text-align: left;
+        float: center;
+        margin-left: 460px;
+    }
+    
+    .bottom {
+        margin-top: 20px;
+        margin-bottom: 200px;
+        margin-left: 735px;
+    }
+    
+    section .bottom h5 {
+        background-color: rgb(248, 247, 247);
+        display: inline-block;
+        text-align: center;
+        margin: 5px;
+        padding: 12px;
+        font-size: 14px;
+        font-weight: lighter;
+        border-radius: .2rem;
+        -webkit-border-radius: .2rem;
+        -moz-border-radius: .2rem;
+        -ms-border-radius: .2rem;
+        -o-border-radius: .2rem;
+    }
+    
+    footer {
+        margin-top: 540px;
+        padding: 7px 20px;
+        background-color: rgb(238, 235, 235);
+        text-align: center;
+        font-size: 14px;
+        font-weight: lighter;
+        color: grey;
+    }
+    
+    footer ul .f-left {
+        float: left;
+    }
+    
+    footer ul .f-right {
+        float: right;
+    }
